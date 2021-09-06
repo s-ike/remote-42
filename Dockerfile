@@ -15,6 +15,7 @@ RUN apt-get update \
         make \
         python-pip \
         python3-pip \
+        python3.8 \
         valgrind \
         vim \
         x11proto-core-dev \
@@ -24,6 +25,7 @@ WORKDIR "/work/"
 
 # # Install norminette
 RUN set -eux; \
+    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1; \
     python3 -m pip install --upgrade pip setuptools; \
     python3 -m pip install norminette
 
