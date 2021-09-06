@@ -13,9 +13,6 @@ rmi:
 run:
 	docker run -it --rm -e DISPLAY="$(IP_ADDRESS):0.0" $(ENV_FILE_PARAM) -v $(YOUR_LOCAL_PROJECT_PATH):/work --name remote-42 remote-42
 
-test:
-	echo $(USER)
-
 rm:
 	docker rm remote-42
 
