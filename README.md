@@ -13,7 +13,7 @@ vim、42headerプラグイン、norminette、valgrindなども入っています
 :.envファイルが必要です。
 以下の書式で書いてください。
 
-IP_ADRESSはXを使用する場合必要です。
+IP_ADRESSはXQuartzを使用する場合必要です。
 ```
 USER=sikeda
 MAIL=sikeda@student.42tokyo.jp
