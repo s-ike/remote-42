@@ -23,7 +23,7 @@ YOUR_LOCAL_PROJECT_PATH=~/Documents/42tokyo/cursus/fract-ol/
 
 **2. docker image作成**
 
-`make iamge`
+`make image`
 
 **3. docker 起動**
 
